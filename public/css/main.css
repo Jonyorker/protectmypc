@@ -1,0 +1,33 @@
+body {
+	padding-top:70px;
+}
+
+.even-topic {
+	background-color: #FF0000;
+}
+
+.odd-topic {
+	background-color: #00FF00;
+}
+
+.even-arrow {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FF0000;
+    margin: 0 auto -20px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.odd-arrow {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #00FF00;
+    margin: 0 auto -20px auto;
+    position: relative;
+    z-index: 2;
+}
